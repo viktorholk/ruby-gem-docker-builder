@@ -1,0 +1,36 @@
+# Build artifacts
+output/
+precompiled/
+*.gem
+
+# Docker files (temporary)
+Dockerfile.*
+!Dockerfile.example
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ruby
+.ruby-version
+.rbenv-vars
+.bundle/
+vendor/bundle/
+
+# Test output
+test_output/ 
